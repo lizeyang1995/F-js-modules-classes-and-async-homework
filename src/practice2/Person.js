@@ -1,4 +1,4 @@
-export default class Person {
+class Person {
   constructor(name) {
     this.name = name;
   }
@@ -7,3 +7,4 @@ export default class Person {
     console.log(`${this.name} is moving`);
   };
 }
+export { Person };

@@ -1,6 +1,6 @@
-import Person from "./Person";
+import { Person } from "./Person";
 
-export default class Student extends Person {
+class Student extends Person {
   constructor(name, className) {
     super(name);
     this.name = name;
@@ -12,3 +12,4 @@ export default class Student extends Person {
     console.log(`${this.name} is studying in ${this.className}`);
   };
 }
+export { Student };
